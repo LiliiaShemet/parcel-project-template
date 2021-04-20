@@ -12,22 +12,21 @@
     />
   </head>
   <body>
- <header>Тестовий проект</header>
-<section>
-  <h2>Наша команда</h2>
-  <ul>
-    <li>Учасник 1</li>
-    <li>Учасник 4</li>
-    <li>Учасник </li>
-  </ul>
-</section>
+    <header>Тестовий проект</header>
+    <include src="./partials/header.html"></include>
+    <section>
+      <h2>Наша команда</h2>
+      <ul>
+        <li>Учасник 1</li>
+        <li>Учасник 4</li>
+        <li>Учасник</li>
+      </ul>
+    </section>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
     <include src="./partials/example.html"></include>
-  <footer class="footer">
-    <a href="" class="logo">
-      Company
-    </a>
-  </footer>
+    <footer class="footer">
+      <a href="" class="logo"> Company </a>
+    </footer>
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
     <section>
